@@ -1,0 +1,12 @@
+matplotlib==3.5.3
+numpy==1.21.6
+pandas==1.3.5
+scipy==1.7.3
+seaborn==0.12.0
+sinfo==0.3.4
+statsmodels==0.13.2
+tqdm==4.64.1
+IPython==7.31.1
+jupyter_client==7.3.5
+jupyter_core==4.10.0
+notebook==6.4.12
