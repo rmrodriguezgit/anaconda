@@ -1,0 +1,66 @@
+                      Time DriverNumber                LapTime  LapNumber  \
+3   0 days 00:23:22.435000           55 0 days 00:01:43.463000          4   
+5   0 days 00:26:55.652000           55 0 days 00:01:41.278000          6   
+7   0 days 00:30:27.671000           55 0 days 00:01:40.615000          8   
+9   0 days 00:34:09.817000           55 0 days 00:01:40.190000         10   
+12  0 days 00:44:50.726000           55 0 days 00:01:44.834000         13   
+..                     ...          ...                    ...        ...   
+379 0 days 00:32:14.965000           47 0 days 00:01:43.174000          9   
+380 0 days 00:33:57.673000           47 0 days 00:01:42.708000         10   
+386 0 days 00:25:04.542000           18 0 days 00:01:45.234000          5   
+387 0 days 00:26:48.551000           18 0 days 00:01:44.009000          6   
+390 0 days 00:33:34.860000           18 0 days 00:01:43.430000          9   
+
+     Stint PitOutTime PitInTime            Sector1Time            Sector2Time  \
+3        1        NaT       NaT 0 days 00:00:33.018000 0 days 00:00:41.892000   
+5        1        NaT       NaT 0 days 00:00:31.957000 0 days 00:00:40.933000   
+7        1        NaT       NaT 0 days 00:00:31.699000 0 days 00:00:40.722000   
+9        1        NaT       NaT 0 days 00:00:31.472000 0 days 00:00:40.544000   
+12       2        NaT       NaT 0 days 00:00:32.987000 0 days 00:00:42.650000   
+..     ...        ...       ...                    ...                    ...   
+379      2        NaT       NaT 0 days 00:00:32.700000 0 days 00:00:41.618000   
+380      2        NaT       NaT 0 days 00:00:32.201000 0 days 00:00:41.857000   
+386      1        NaT       NaT 0 days 00:00:33.005000 0 days 00:00:43.129000   
+387      1        NaT       NaT 0 days 00:00:32.400000 0 days 00:00:42.385000   
+390      2        NaT       NaT 0 days 00:00:32.708000 0 days 00:00:42.224000   
+
+               Sector3Time  ... IsPersonalBest      Compound TyreLife  \
+3   0 days 00:00:28.553000  ...          False  INTERMEDIATE      4.0   
+5   0 days 00:00:28.388000  ...          False  INTERMEDIATE      6.0   
+7   0 days 00:00:28.194000  ...          False  INTERMEDIATE      8.0   
+9   0 days 00:00:28.174000  ...          False  INTERMEDIATE     10.0   
+12  0 days 00:00:29.197000  ...          False  INTERMEDIATE      3.0   
+..                     ...  ...            ...           ...      ...   
+379 0 days 00:00:28.856000  ...          False  INTERMEDIATE      3.0   
+380 0 days 00:00:28.650000  ...           True  INTERMEDIATE      4.0   
+386 0 days 00:00:29.100000  ...          False  INTERMEDIATE      5.0   
+387 0 days 00:00:29.224000  ...          False  INTERMEDIATE      6.0   
+390 0 days 00:00:28.498000  ...           True  INTERMEDIATE      NaN   
+
+     FreshTyre           LapStartTime          Team  Driver  TrackStatus  \
+3         True 0 days 00:21:38.972000       Ferrari     SAI            1   
+5         True 0 days 00:25:14.374000       Ferrari     SAI            1   
+7         True 0 days 00:28:47.056000       Ferrari     SAI            1   
+9         True 0 days 00:32:29.627000       Ferrari     SAI            1   
+12        True 0 days 00:43:05.892000       Ferrari     SAI            1   
+..         ...                    ...           ...     ...          ...   
+379       True 0 days 00:30:31.791000  Haas F1 Team     MSC            1   
+380       True 0 days 00:32:14.965000  Haas F1 Team     MSC            1   
+386       True 0 days 00:23:19.308000  Aston Martin     STR            1   
+387       True 0 days 00:25:04.542000  Aston Martin     STR            1   
+390       True 0 days 00:31:51.430000  Aston Martin     STR            1   
+
+    IsAccurate            LapStartDate  
+3         True 2022-07-02 14:06:38.981  
+5         True 2022-07-02 14:10:14.383  
+7         True 2022-07-02 14:13:47.065  
+9         True 2022-07-02 14:17:29.636  
+12        True 2022-07-02 14:28:05.901  
+..         ...                     ...  
+379       True 2022-07-02 14:15:31.800  
+380       True 2022-07-02 14:17:14.974  
+386       True 2022-07-02 14:08:19.317  
+387       True 2022-07-02 14:10:04.551  
+390       True 2022-07-02 14:16:51.439  
+
+[154 rows x 27 columns]
